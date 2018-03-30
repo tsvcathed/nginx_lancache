@@ -2,7 +2,8 @@ The Nginx Lancache is an on premise caching solution initially designed for scho
 
 The caches are designed for direct connectivity (no proxy) or transparent proxy, and there must be an onsite DNS server.
 
-Technically you can point any host to the onsite cache, however the more selective the better.
+Technically you can point any host to the onsite cache, however the more selective the better, and it only caches HTTP content.
+SSL is passed through as an SNI proxy only.
 
 The cache ignores X-Accel-Expires, Expires, Cache-Control, Set-Cookie, and Vary headers. It also ignore query strings as part of
 the cache key.
