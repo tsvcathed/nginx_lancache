@@ -5,7 +5,7 @@ The caches are designed for direct connectivity (no proxy) or transparent proxy,
 Technically you can point any host to the onsite cache, however the more selective the better, and it only caches HTTP content.
 SSL is passed through as an SNI proxy only.
 
-The cache ignores X-Accel-Expires, Expires, Cache-Control, Set-Cookie, and Vary headers. It also ignore query strings as part of
+The cache ignores X-Accel-Expires, Expires, Cache-Control, Set-Cookie, and Vary headers. It also ignores query strings as part of
 the cache key.
 
 The cache also downloads large files at one 16MB slice at a time. Cache locking prevents the client from pulling the file at the same
