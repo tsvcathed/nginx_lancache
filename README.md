@@ -12,8 +12,7 @@ The cache also downloads large files at one 16MB slice at a time. Cache locking 
 time as a cache filling operation, thus reducing bandwidth utilisation. In theory, this should mean that only one instance of any file
 is ever downloaded.
 
-Some configuration within the nginx.conf file restricts caching of files over 5GB in size. This is to prevent caching of games which
-are upwards of 55GB being downloaded off the Microsoft Store and filling the cache unnecessarily. This can be removed if desired.
+Some configuration within the nginx.conf file restricts caching based on a HEAD request. Some updates (for whatever reason) do a HEAD request, then fail to download the actual file. This sometimes causes nginx to download the file into the cache when it is not needed.
 
 Steps:
 1. Create a linux VM (CentOS was used for this variation) with 2GB ram and 100GB disk space, and install Nginx.
