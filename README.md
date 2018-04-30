@@ -21,23 +21,22 @@ Steps:
 3. On your local DNS server, install the following Zone's:
 
     Apple Zones:
-       appldnld.apple.com (@)
-       iosapps.itunes.apple.com (@)
-       osxapps.itunes.apple.com (@)
+       appldnld.apple.com
+       iosapps.itunes.apple.com
+       osxapps.itunes.apple.com
 
     Microsoft Zones:
-       download.windowsupdate.com (@, *)
-       windowsupdate.microsoft.com (@, *)
-       tlu.dl.delivery.mp.microsoft.com (@, *)
+       download.windowsupdate.com
+       windowsupdate.microsoft.com
+       tlu.dl.delivery.mp.microsoft.com
 
     Google Chrome/ChromeOS:
-       dl.google.com (@)
-       gvt1.com (@)
+       dl.google.com
+       gvt1.com
 
     Adobe:
-       ardownload.adobe.com (@)
-       ccmdl.adobe.com (@)
-       agsupdate.adobe.com (@)
+       ardownload.adobe.com
+       ccmdl.adobe.com
+       agsupdate.adobe.com
 
-    * Zone's designated "(@)" only need a root A record pointing to your on premises cache.
-    * Zone's designated "(@, *)" need both a root A record and a wildcard A record pointing to your on premises cache.
+    * All zone's need a base '@' A record and a wildcard * record pointing to your on premises cache.
