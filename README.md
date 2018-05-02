@@ -11,22 +11,33 @@ Using DNS interception for well-known and high-volume domain names at the local 
 ## Intercepted Zones
 
 Apple Zones:
+
        appldnld.apple.com
+       
        iosapps.itunes.apple.com
+       
        osxapps.itunes.apple.com
 
 Microsoft Zones:
+
        download.windowsupdate.com
+       
        windowsupdate.microsoft.com
+       
        tlu.dl.delivery.mp.microsoft.com
 
 Google Chrome/ChromeOS:
+
        dl.google.com
+       
        gvt1.com
 
 Adobe:
+
        ardownload.adobe.com
+       
        ccmdl.adobe.com
+       
        agsupdate.adobe.com
 
 * All zone's need a base '@' A record and a wildcard * record pointing to your on premises cache.
