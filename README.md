@@ -26,13 +26,13 @@ Microsoft Zones:
        
        tlu.dl.delivery.mp.microsoft.com
 
-Google Chrome/ChromeOS:
+Google Chrome/ChromeOS Zones:
 
        dl.google.com
        
        gvt1.com
 
-Adobe:
+Adobe Zones:
 
        ardownload.adobe.com
        
