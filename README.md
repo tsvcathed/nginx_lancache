@@ -12,11 +12,7 @@ Using DNS interception for well-known and high-volume domain names at the local 
 
 Apple Zones:
 
-       appldnld.apple.com
-       
-       iosapps.itunes.apple.com
-       
-       osxapps.itunes.apple.com
+       aaplimg.com
 
 Microsoft Zones:
 
