@@ -24,9 +24,11 @@ Microsoft Zones:
 
        download.windowsupdate.com
        
-       windowsupdate.microsoft.com
+       *.download.windowsupdate.com
        
        tlu.dl.delivery.mp.microsoft.com
+       
+       *.tlu.dl.delivery.mp.microsoft.com
        
        officecdn.microsoft.com
        
@@ -36,7 +38,7 @@ Google Chrome/ChromeOS Zones:
 
        dl.google.com
        
-       gvt1.com
+       *.gvt1.com
 
 Adobe Zones:
 
