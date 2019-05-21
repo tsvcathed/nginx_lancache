@@ -32,6 +32,8 @@ Microsoft Zones:
        
        *.tlu.dl.delivery.mp.microsoft.com
        
+       officecdn.microsoft.com
+       
        officecdn.microsoft.com.edgesuite.net
 
 Google Chrome/ChromeOS Zones:
