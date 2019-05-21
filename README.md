@@ -19,6 +19,8 @@ Apple Zones:
        updates-http.cdn-apple.com
        
        osxapps.itunes.apple.com
+	   
+	   swcdn.apple.com
 
 Microsoft Zones:
 
