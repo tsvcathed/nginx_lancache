@@ -1,6 +1,6 @@
 # Nginx LanCache
 
-On premises caching solution for Microsoft, Apple, Google and Adobe products.
+On premises caching or micro-CDN solution for Microsoft, Apple, Google and Adobe products.
 
 ## Overview
 
