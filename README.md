@@ -8,7 +8,7 @@ The Nginx Lancache is an on premise caching solution initially designed for scho
 
 Using DNS interception for well-known and high-volume domain names at the local level, requested files can be cached on premises.
 
-Running for 12 months on a network of 13,500 users distributed over 33 different independent links, total bandwidth savings netted 160.55 terabytes of data - an average of 13.38 terabytes per month. The caches had an average efficiency of 358%.
+Running for 12 months on a network of 13,500 users distributed over 33 different independent links, total bandwidth savings netted 160.55 terabytes of data - an average of 13.38 terabytes per month. The caches had an average efficiency ratio of 3.58:1.
 
 ## Intercepted Zones
 
