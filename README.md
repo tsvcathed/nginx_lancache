@@ -59,7 +59,7 @@ Adobe Zones:
 This method is for sites with a pre-existing onsite DNS server.
 
 1. Create a linux VM (CentOS was used for this variation) with 2GB ram and 100GB disk space, and install Nginx.
-2. Implement the nginx.conf configuration and change the two "forwarders" locations to an upstream DNS server that you WILL NOT use
+2. Implement the nginx.conf configuration and change the two resolver locations to an upstream DNS server that you WILL NOT use
    for the local DNS interception - eg. 8.8.8.8 / 8.8.4.4.
 3. On your local DNS server, install the zones listed in the "Intercepted Zones" section above with both base and wildcard A records pointing to the IP address you gave your linux VM.
 

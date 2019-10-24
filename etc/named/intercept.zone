@@ -7,5 +7,6 @@ $TTL    604800
                          604800 )       ; Negative Cache TTL
 
 @       IN      NS      localhost.
-@       IN      A       10.112.8.99
-*       IN      A       10.112.8.99
+; Change these IP's to the IP that you give your cache
+@       IN      A       1.2.3.4
+*       IN      A       1.2.3.4
