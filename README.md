@@ -56,11 +56,11 @@ Random Game CDN's:
 
        download.epicgames.com
 	   
-	   resources.download.minecraft.net
+       resources.download.minecraft.net
 	   
-	   steampipe.akamaized.net
+       steampipe.akamaized.net
 	   
-	   steamcontent.com
+       *.steamcontent.com
 
 * All zone's need a base '@' A record and a wildcard * record pointing to your on premises cache.
 
