@@ -52,18 +52,6 @@ Adobe Zones:
        
        agsupdate.adobe.com
 	   
-<<<<<<< HEAD
-=======
-Random Game CDN's:
-
-       download.epicgames.com
-	   
-       resources.download.minecraft.net
-	   
-       steampipe.akamaized.net
-	   
-       *.steamcontent.com
->>>>>>> 5a6e922822175d68ad33d486e6fc7996047d8312
 
 * All zone's need a base '@' A record and a wildcard * record pointing to your on premises cache.
 
