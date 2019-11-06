@@ -1,6 +1,6 @@
 # Nginx LanCache
 
-On premises caching or micro-CDN solution for Microsoft, Apple, Google, Adobe and some various game products/software.
+On premises caching or micro-CDN solution for Microsoft, Apple, Google and Adobe products.
 
 ## Overview
 
@@ -52,15 +52,6 @@ Adobe Zones:
        
        agsupdate.adobe.com
 	   
-Random Game CDN's:
-
-       download.epicgames.com
-	   
-	   resources.download.minecraft.net
-	   
-	   steampipe.akamaized.net
-	   
-	   steamcontent.com
 
 * All zone's need a base '@' A record and a wildcard * record pointing to your on premises cache.
 
