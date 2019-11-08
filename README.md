@@ -86,7 +86,7 @@ It only caches HTTP content - SSL is passed through as an SNI proxy only.
 The cache ignores X-Accel-Expires, Expires, Cache-Control, Set-Cookie, and Vary headers. It also ignores query strings as part of
 the cache key.
 
-The cache also downloads large files at one 16MB slice at a time. Cache locking prevents the client from pulling the file at the same
+The cache also downloads large files at one 1MB slice at a time. Cache locking prevents the client from pulling the file at the same
 time as a cache filling operation, thus reducing bandwidth utilisation. In theory, this should mean that only one instance of any file
 is ever downloaded.
 
