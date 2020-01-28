@@ -81,7 +81,7 @@ The caches are designed for direct connectivity (no proxy) or transparent proxy.
 
 Technically you can point any host to the onsite cache, however the more selective the better.
 
-It only caches HTTP content - SSL is passed through as an SNI proxy only.
+It only caches HTTP content - SSL is passed through as an SNI proxy only, however the config file has options to rate limit this traffic.
 
 The cache ignores X-Accel-Expires, Expires, Cache-Control, Set-Cookie, and Vary headers. It also ignores query strings as part of
 the cache key.
@@ -91,15 +91,3 @@ time as a cache filling operation, thus reducing bandwidth utilisation. In theor
 is ever downloaded.
 
 Some configuration within the nginx.conf file restricts caching based on a HEAD request. Some updates (for whatever reason) do a HEAD request, then fail to download the actual file. This sometimes causes nginx to download the file into the cache when it is not needed.
-
-## Policing HTTPS SNI proxy
-
-In some instances, Apple prefers to use HTTPS for downloading content, which cannot be cached. The only solution to managing bandwidth in this instance is to rate limit the traffic into the proxy.
-
-Included in the /usr/sbin path is the ratelimiter.sh file. If you wish to throttle HTTPS/SSL content, put this file into /usr/sbin in your linux instance.
-
-Edit the /usr/sbin/ratelimiter.sh bash script variables as to your own local environment. I usually rate limit to 50% of the link capacity. You may wish to limit it to less.
-
-Make the bash script executable by running 'sudo chmod +x /usr/sbin/ratelimiter.sh'.
-
-Run 'sudo crontab -e' and add the line: '@reboot /usr/sbin/ratelimiter.sh'
