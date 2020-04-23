@@ -1,6 +1,6 @@
 # Nginx LanCache
 
-On premises caching or micro-CDN solution for Microsoft, Apple, Google and Adobe products.
+On premises caching or micro-CDN solution for Microsoft, Google and Adobe products.
 
 ## Overview
 
@@ -11,14 +11,6 @@ Using DNS interception for well-known and high-volume domain names at the local 
 Running for 12 months on a network of 13,500 users distributed over 33 different independent links, total bandwidth savings netted 160.55 terabytes of data - an average of 13.38 terabytes per month. The caches had an average efficiency ratio of 3.58:1.
 
 ## Intercepted Zones
-
-Apple Zones:
-
-       appldnld.apple.com
-       
-       updates-http.cdn-apple.com
-	   
-	   swcdn.apple.com
 
 Microsoft Zones:
 
